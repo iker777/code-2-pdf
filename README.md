@@ -33,3 +33,5 @@ Esto iniciará el proceso de conversión del código en la carpeta especificada 
 ## Uso
 
 Para usar `code-2-pdf`, simplemente coloca tu código HTML, CSS y JavaScript en la carpeta deseada y ejecuta el comando de inicio. La herramienta se encargará de recorrer las subcarpetas y combinar todo el código en un único archivo PDF.
+
+La herramienta hay que ponerla dentro de una carpeta raíz junto a la carpeta del alumno. El PDF se generará dentro de la carpeta raíz.

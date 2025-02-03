@@ -2,13 +2,14 @@ const fs = require('fs');
 const path = require('path');
 const PDFDocument = require('pdfkit');
 
-const outputPdfFile = 'codigo_completo.pdf'; // Archivo de salida
 
 // Función para leer la entrada de la carpeta y alumno
 const prompt = require('prompt-sync')();
 
-const folderPath = './'+ prompt('Nombre de la carpeta del examen del alumno:'); 
+const folderPath = '../'+ prompt('Nombre de la carpeta del examen del alumno:'); 
 const nombreAlumno = prompt('Nombre del alumno:');
+
+const outputPdfFile = `../examen_${nombreAlumno}.pdf`; // Archivo de salida
 
 // Crear un nuevo documento PDF
 const doc = new PDFDocument();
